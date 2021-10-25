@@ -1,9 +1,15 @@
-package com.thoughtworks.codepairing.model;
+package com.thoughtworks.codepairing.mycart;
 
+import java.util.List;
+
+/**
+ * @author polaris
+ * @date 2021 10月 24 17:13
+ **/
 public class Product {
-    private final double price;
-    private final String productCode;
-    private final String name;
+    private double price;
+    private String productCode;
+    private String name;
 
     public Product(double price, String productCode, String name) {
         this.price = price;
@@ -23,3 +29,4 @@ public class Product {
         return name;
     }
 }
+

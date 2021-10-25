@@ -1,5 +1,9 @@
-package com.thoughtworks.codepairing.model;
+package com.thoughtworks.codepairing.mycart;
 
+/**
+ * @author polaris
+ * @date 2021 10月 24 17:13
+ **/
 public class Customer {
     private String name;
 
